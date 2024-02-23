@@ -23,7 +23,7 @@ const useGif = (tag) => {
     }
     
     useEffect( () => {
-      fetchData('car');
+      fetchData('cat');
     },[] )
 
     return {gif,loading, fetchData};
